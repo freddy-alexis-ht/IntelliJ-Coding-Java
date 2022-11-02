@@ -1,0 +1,8 @@
+POST https://{{hostname}}/anything
+Content-Type: application/json
+
+{"some":  "data"}
+
+> response-handler-script.js
+
+
